@@ -57,14 +57,14 @@ sleep 5
 clear
 printf "\e[1;31m Asignando permisos a archivo pishing...\n"
 sleep 3
-chmod +x darkwizardpishing.sh
+chmod 777 darkwizardpishing.sh
 printf "\e[1;31m Instalacion completada..\n"
 clear
 printf "\e[1;31m Ejecutaremos el script pishing en 3 segundos\n"
 sleep 3
 pkg install mpv
 clear
-bash darkwizardpishing.sh
+./darkwizardpishing.sh
 exit
 
 
