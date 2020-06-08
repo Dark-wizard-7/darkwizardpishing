@@ -57,7 +57,7 @@ sleep 5
 clear
 printf "\e[1;31m Asignando permisos a archivo pishing...\n"
 sleep 3
-chmod +x facupishing.py
+chmod +x darkwizardpishing.sh
 printf "\e[1;31m Instalacion completada..\n"
 clear
 printf "\e[1;31m Ejecutaremos el script pishing en 3 segundos\n"
